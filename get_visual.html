@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html leng="en">
+      <head>
+	       <meta charset="UTF-8">
+		   <title>Media challenges</title>
+		
+		   <style type="text/css">
+		       .container{
+			     width:350px;
+				 
+				 position:relative;
+		          margin:10px;
+				 float:left;
+				 border:solid 4px gray;
+				  border-radius:10px;
+			 }
+		      
+			   .flower{
+			      
+				  height:250px;
+				  width:250px;
+				  border:solid 4px black;
+				   margin:10px 20px;
+				  border-radius:10px;
+			  }
+			  .graycale{
+			  -webkit-filter: grayscale(.8);
+			  }
+			  .blur{
+			      -webkit-filter: blur(2px);
+			  }
+			 .sepia{-webkit-filter: sepia(1);}
+			 .hue{-webkit-filter: hue-rotate(279deg);}
+			 .saturate{-webkit-filter: saturate(.9);}
+			  .opacity{-webkit-filter: opacity(.5);}
+			  .brightness{-webkit-filter: brightness(.9);}
+			  .contrast{-webkit-filter: contrast(1);}
+			   .multiple{-webkit-filter: blur(2px) sepia(.5) opacity(0.8);
+}             
+            h2{
+			    text-align:left;
+				margin:10px;
+				padding:0px;
+
+}
+			 </style>
+        </head>
+      <body>
+	        <div class="container">
+	       <h2>Flowers Grayscale</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower graycale" />
+			</div>   
+            <div class="container">
+	       <h2>Flowers Blur</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower blur" />
+			</div>  
+             <div class="container">
+	       <h2>Flowers Sepia</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower sepia" />
+			</div>   
+           <div class="container">
+	       <h2>Flowers Hue-Rotate</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower hue" />
+			</div>   
+         <div class="container">
+	       <h2>Flowers Saturate</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower saturate" />
+			</div>  
+             <div class="container">
+	       <h2>Flowers Opacity</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower opacity" />
+			</div>   
+             <div class="container">
+	       <h2>Flowers Brightness</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower brightness" />
+			</div>   
+              <div class="container">
+	       <h2>Flowers Contrast</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower contrast" />
+			</div>  
+         <div class="container">
+	       <h2>Flowers Multiple Effcts</h2>
+		   <img src="img/flower.jpg" alt="flowers" class="flower multiple" />
+			</div 			
+	  </body>		
+</html>	  
